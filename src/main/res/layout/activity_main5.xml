@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome!"
+        android:textColor="#2B302D"
+        android:textSize="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="1dp"
+        android:text=" Welcome to this Speed Limit Announcer the application that will assist you with your journey to become a safer driver, and spend less money on those expensive speeding tickets."
+        android:textAlignment="center"
+        android:textColor="#424242"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="965dp"
+        android:layout_height="764dp"
+        android:src="@drawable/car_with_ticket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="267dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="sans-serif"
+        android:text="Get Started"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/component_17__1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/component_17__1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/component_17__1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="232dp"
+        android:layout_height="309dp"
+        android:src="@drawable/personpointing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

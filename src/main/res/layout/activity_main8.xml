@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="433dp"
+        android:layout_height="225dp"
+        android:background="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Change Password"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Change your password here"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.269" />
+
+
+    <TextView
+        android:id="@+id/enternewpasswordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Enter New Password"
+        android:textColor="#424242"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.243"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <TextView
+        android:id="@+id/confirmnewpasswordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Confirm New Password"
+        android:textColor="#424242"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <TextView
+        android:id="@+id/previouspasswordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Enter Current Password"
+        android:textColor="#424242"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.293"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/previouspassword"
+            android:layout_width="288dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/component_15__1"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter Current Password..."
+            android:inputType="textPassword"
+            android:textColor="#424242"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintVertical_bias="0.0" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/newpassword"
+            android:layout_width="288dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/component_15__1"
+            android:drawableStart="@drawable/ic_baseline_lock_open_24"
+            android:fontFamily="sans-serif-light"
+            android:hint="Enter New Password..."
+            android:inputType="textPassword"
+            android:textColor="#424242"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintVertical_bias="0.0" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirmpassword"
+            android:layout_width="288dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/component_15__1"
+            android:drawableStart="@drawable/ic_baseline_lock_open_24"
+            android:fontFamily="sans-serif-light"
+            android:hint="Confirm New Password..."
+            android:inputType="textPassword"
+            android:textColor="#424242"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            app:layout_constraintVertical_bias="0.0" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_confirm_password"
+        android:layout_width="267dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="sans-serif"
+        android:onClick="@activity_main3"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="187dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="208dp"
+        android:background="@drawable/clear_white_button"
+        android:fontFamily="sans-serif"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#424242"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.348" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

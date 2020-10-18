@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/component_17__1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886"
+        />
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/component_17__1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/component_17__1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="267dp"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_btn"
+        android:fontFamily="sans-serif"
+        android:text="Get Started"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:layout_editor_absoluteY="577dp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Why is this application better than Waze or Google Maps? This application would be running in the background instead of using your phone's limited battery actively. Additionally, you don't have a destination set for this application to work due to the on and off switch, the application could be running or turned off with the flip of a switch."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#424242"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Why use this app?"
+        android:textColor="#2B302D"
+        android:textSize="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.891" />
+
+    <ImageView
+        android:layout_width="339dp"
+        android:layout_height="351dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/component_19__1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
