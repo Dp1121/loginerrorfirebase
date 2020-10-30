@@ -62,6 +62,7 @@
 
     <EditText
         android:id="@+id/tv_emailL"
+        android:inputType="textEmailAddress"
         android:layout_width="288dp"
         android:layout_height="33dp"
         android:background="@drawable/component_15__1"
@@ -162,7 +163,7 @@
         android:layout_marginBottom="256dp"
         android:background="@drawable/clear_white_button"
         android:fontFamily="sans-serif"
-        android:text="Forgot Password?"
+        android:text="@string/forgot_password"
         android:textAllCaps="false"
         android:textColor="#424242"
         android:textSize="15dp"

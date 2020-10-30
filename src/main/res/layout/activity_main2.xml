@@ -63,6 +63,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.351" />
 
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="430dp"
         android:layout_height="wrap_content"
@@ -84,14 +85,8 @@
             android:hint="Enter Password..."
             android:inputType="textPassword"
             android:textColor="#424242"
-            android:textSize="13dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView7"
-            app:layout_constraintVertical_bias="0.0" />
+            android:textSize="13dp" />
     </com.google.android.material.textfield.TextInputLayout>
-
 
     <TextView
         android:id="@+id/textView7"

@@ -64,8 +64,7 @@ class MainActivity2 : AppCompatActivity() {
                     Toast.makeText(
                         baseContext, "Sign Up failed. Try again after some time.",
                         Toast.LENGTH_SHORT
-                    ).show()
-                }
+                    ).show()                }
             }
 
     }

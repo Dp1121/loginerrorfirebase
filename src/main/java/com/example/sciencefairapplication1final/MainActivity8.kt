@@ -36,12 +36,12 @@ class MainActivity8 : AppCompatActivity() {
                         .getCredential(user.email!!, previouspassword.text.toString())
 
 // Prompt the user to re-provide their sign-in credentials
-                    user?.reauthenticate(credential)
-                        ?.addOnCompleteListener {
+                    user.reauthenticate(credential)
+                        .addOnCompleteListener {
                             if (it.isSuccessful) {
                                 Toast.makeText(this, "Re-Authentication success.", Toast.LENGTH_SHORT).show()
-                                user?.updatePassword(newpassword.text.toString())
-                                    ?.addOnCompleteListener { task ->
+                                user.updatePassword(newpassword.text.toString())
+                                    .addOnCompleteListener { task ->
                                         if (task.isSuccessful) {
                                             Toast.makeText(this, "Password changed successfully.", Toast.LENGTH_SHORT).show()
                                             auth.signOut()
